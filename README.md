@@ -1,16 +1,98 @@
-# React + Vite
+# RH Ellos - Sistema de Gestão de Funcionários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto faz parte do desenvolvimento de um sistema de **Gestão de Recursos Humanos**, criado com o objetivo de aprimorar habilidades em **desenvolvimento Full Stack** e construção de aplicações modernas.
 
-Currently, two official plugins are available:
+O sistema permite a **gestão de funcionários**, integrando um frontend moderno com um backend baseado em API REST.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend:
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend:
+
+- Java
+- Spring Boot
+- Maven
+- API REST
+
+---
+
+## 🖥️ Funcionalidades
+
+- Listagem de funcionários
+- Integração com API REST
+- Estrutura escalável de frontend
+- Consumo de dados do backend
+
+Próximas melhorias:
+
+- Cadastro de funcionários
+- Edição de dados
+- Exclusão de funcionários
+- Dashboard administrativo
+
+---
+
+## 📂 Estrutura do Projeto
+rh-ellos-system
+├── rh-backend
+│ └── Spring Boot API
+│
+└── rh-ellos-frontend
+└── React + Vite
+
+---
+
+## 🌐 Execução do Projeto
+
+### Backend
+
+Rodar o servidor Spring Boot:
+mvn spring-boot:run
+
+A API ficará disponível em:
+http://localhost:8080/api/funcionarios
+
+
+---
+
+### Frontend
+
+Rodar o frontend React:
+npm install
+run dev
+aplicação disponivel em:
+ http://localhost:5173
+
+ 
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido como parte do processo de evolução profissional na área de **tecnologia e desenvolvimento de software**, com foco em:
+
+- Arquitetura de aplicações
+- Integração frontend e backend
+- Boas práticas de desenvolvimento
+- Construção de sistemas escaláveis
+
+---
+
+## 👨‍💻 Autor
+
+**Breno Ferreira**
+
+Graduado em **Gestão de Tecnologia da Informação**, com interesse em desenvolvimento de software, análise de dados e construção de soluções tecnológicas.
+
+---
+
+## 📌 Status do Projeto
+
+Em desenvolvimento 🚧
