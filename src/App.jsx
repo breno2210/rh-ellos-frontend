@@ -186,7 +186,7 @@ export default function App() {
             <div style={{ height: 20 }} />
 
             <div style={styles.card}>
-              <h3 style={styles.cardTitle}>Lista de funcionarios</h3>
+              <h3 style={styles.cardTitle}>Lista de Funcionários</h3>
 
               {loading ? (
                 <div style={styles.loading}>Carregando...</div>
@@ -258,14 +258,13 @@ const styles = {
     fontFamily: "'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial",
   },
 
-appShell: {
-  width: "100%",
-  maxWidth: "1400px", 
-  margin: "0 auto",   
-  display: "flex",
-  flexDirection: "column",
-  gap: 24,
-},
+  appShell: {
+    width: "100%",
+    maxWidth: 1100,
+    display: "flex",
+    flexDirection: "column",
+    gap: 20,
+  },
 
   header: {
     display: "flex",
@@ -308,23 +307,18 @@ appShell: {
     fontWeight: 700
   },
 
- main: {
-  display: "grid",
-  gridTemplateColumns: "320px 1fr",
-  gap: 32,
-  alignItems: "start",
-  width: "100%"
-},
+  main: {
+    display: "flex",
+    gap: 20,
+    alignItems: "flex-start"
+  },
 
-statsColumn: {
-  display: "flex",
-  flexDirection: "column",
-  gap: 20
-},
-
-contentColumn: {
-  width: "100%"
-},
+  statsColumn: {
+    width: 280,
+    display: "flex",
+    flexDirection: "column",
+    gap: 16
+  },
 
   searchCard: {
     padding: 14,
@@ -506,4 +500,4 @@ contentColumn: {
     paddingTop: 8,
     fontSize: 13
   }
-  };
+};
